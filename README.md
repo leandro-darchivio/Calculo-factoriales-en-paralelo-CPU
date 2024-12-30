@@ -40,7 +40,20 @@ Este proyecto requiere Python 3 y el módulo `concurrent.futures`, que está inc
 
 ## Ejemplo
 
-Por ejemplo, 100.000! tiempo de calculo 2s aproximadamente segun CPU
+100.000! Tiene 456.574 dígitos.   Tiempo de cálculo: 2.19878 segundos.
+
+200.000! Tiene 973.351 dígitos.   Tiempo de cálculo: 9.74251 segundos.
+
+300.000! Tiene 1.512.852 dígitos. Tiempo de cálculo: 23.41005 segundos.
+
+400.000! Tiene 2.067.110 dígitos. Tiempo de cálculo: 43.46294 segundos.
+
+500.000! Tiene 2.632.342 dígitos. Tiempo de cálculo: 70.61603 segundos.
+
+600.000! Tiene 3.206.318 dígitos. Tiempo de cálculo: 104.83429 segundos.
+
+
+
 
 ## Ejemplo práctico
 
