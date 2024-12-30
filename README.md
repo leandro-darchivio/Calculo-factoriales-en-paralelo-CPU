@@ -6,7 +6,8 @@ Este proyecto permite calcular el factorial de un número de manera paralela uti
 ## Descripción
 
 El código utiliza el módulo `concurrent.futures` de Python para dividir el cálculo del factorial en tareas que se ejecutan de manera concurrente en varios núcleos del procesador. Esto permite que el cálculo de grandes factoriales sea mucho más rápido que si se hiciera de manera secuencial.
-5. Cálculo de Números Extremadamente Grandes
+
+## Cálculo de Números Extremadamente Grandes
 Una de las características más poderosas de este proyecto es su capacidad para calcular factoriales de números muy grandes, incluso números casi infinitos. Al dividir el trabajo en varios procesos utilizando ProcessPoolExecutor, el cálculo se distribuye entre múltiples núcleos del procesador, lo que permite que el código maneje números de tamaño colosal sin que el sistema se quede sin recursos.
 
 Debido a que Python maneja enteros arbitrariamente grandes (sin límite predefinido de tamaño), puedes calcular factoriales de números con cientos o incluso miles de dígitos. El límite práctico estará determinado por la memoria disponible en tu máquina y el tiempo de procesamiento, pero no hay un límite explícito en el código para el tamaño de los números.
