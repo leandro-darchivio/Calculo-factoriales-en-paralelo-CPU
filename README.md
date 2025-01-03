@@ -2,7 +2,6 @@
 
 Este proyecto permite calcular el factorial de un número de manera paralela utilizando el módulo `concurrent.futures` de Python para distribuir el trabajo entre varios procesos. Es especialmente útil cuando se calcula el factorial de números grandes, ya que aprovecha los recursos del CPU al dividir el trabajo en múltiples núcleos.
 
-
 ## Descripción
 
 El código utiliza el módulo `concurrent.futures` de Python para dividir el cálculo del factorial en tareas que se ejecutan de manera concurrente en varios núcleos del procesador. Esto permite que el cálculo de grandes factoriales sea mucho más rápido que si se hiciera de manera secuencial.
@@ -30,6 +29,11 @@ Esto significa que, con los recursos adecuados, puedes calcular factoriales de n
 ## Requisitos
 
 Este proyecto requiere Python 3 y el módulo `concurrent.futures`, que está incluido en la biblioteca estándar de Python 3. 
+
+## Mejoras a realizar 
+
+Actualmente utiliza 12 nucleos, pero debería contar la cantidad de nucleos y utilizar esa cantidad.
+
 
 ## Uso
 
